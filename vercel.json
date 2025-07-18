@@ -1,11 +1,6 @@
+
 {
   "version": 2,
-  "builds": [
-    {
-      "src": "Backend/api/*.js",
-      "use": "@vercel/node"
-    }
-  ],
   "routes": [
     {
       "src": "/send-otp",
@@ -17,3 +12,4 @@
     }
   ]
 }
+
